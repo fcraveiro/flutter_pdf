@@ -1,0 +1,40 @@
+name: flutter_future_builder
+
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:                # Importante  
+    sdk: flutter
+  font_awesome_flutter: ^9.2.0          # Basico
+  get: ^4.6.1                           # Basico
+  get_storage: ^2.0.3                   # Basico
+  google_fonts: ^2.2.0                  # Basico
+  supabase: ^0.2.10                     # Basico
+  cupertino_icons: ^1.0.2           
+  pdf: ^3.7.1
+  path_provider: ^2.0.9
+  open_document: ^1.0.4
+  share_extend: ^2.0.0
+  flutter_full_pdf_viewer: ^1.0.6
+
+dev_dependencies:
+
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
