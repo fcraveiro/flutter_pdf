@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_future_builder/pdfdir/invoice_service.dart';
+import '/pdfdir1/invoice_service.dart';
 
-import 'model/product.dart';
+import 'product.dart';
 
-class Chama extends StatefulWidget {
-  const Chama({Key? key}) : super(key: key);
+class Pagina1 extends StatefulWidget {
+  const Pagina1({Key? key}) : super(key: key);
 
   @override
-  State<Chama> createState() => _ChamaState();
+  State<Pagina1> createState() => _Pagina1State();
 }
 
-class _ChamaState extends State<Chama> {
+class _Pagina1State extends State<Pagina1> {
   final PdfInvoiceService service = PdfInvoiceService();
   List<Product> products = [
     Product("Membership", 9.99, 19),

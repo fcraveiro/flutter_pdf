@@ -27,27 +27,7 @@ class _MenuState extends State<Menu> {
               onPressed: () {
                 Get.toNamed("/pagina1/");
               },
-              child: const Text('Future Builder'),
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-            ElevatedButton(
-              style: elevatedEstilo,
-              onPressed: () {
-                Get.toNamed("/pagepdf/");
-              },
-              child: const Text('PDF'),
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-            ElevatedButton(
-              style: elevatedEstilo,
-              onPressed: () {
-                Get.toNamed("/pagepdf/");
-              },
-              child: const Text('PDF 4'),
+              child: const Text('PDF não Funcional'),
             ),
           ],
         ),
