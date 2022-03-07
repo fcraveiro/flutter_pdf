@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/pdfdir1/invoice_service.dart';
+import 'package:flutter_pdf/paginas/pdfdir1/invoice_service.dart';
 
 import 'product.dart';
 
