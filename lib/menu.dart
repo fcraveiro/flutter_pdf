@@ -29,6 +29,26 @@ class _MenuState extends State<Menu> {
               },
               child: const Text('PDF não Funcional'),
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              style: elevatedEstilo,
+              onPressed: () {
+                Get.toNamed("/pagina2/");
+              },
+              child: const Text('Pdf Fotos'),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              style: elevatedEstilo,
+              onPressed: () {
+                Get.toNamed("/homeview/");
+              },
+              child: const Text('Homeview'),
+            ),
           ],
         ),
       ),

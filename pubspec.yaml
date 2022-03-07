@@ -25,6 +25,8 @@ dependencies:
   open_document: ^1.0.4
   share_extend: ^2.0.0
   flutter_full_pdf_viewer: ^1.0.6
+  open_file: ^3.2.1
+  image_picker: ^0.8.4+10
 
 dev_dependencies:
 
