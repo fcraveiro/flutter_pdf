@@ -22,9 +22,9 @@ dependencies:
   path_provider: ^2.0.9
   open_file: ^3.2.1
   image_picker: ^0.8.4+10
+  intl: ^0.17.0
 
 dev_dependencies:
-
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
@@ -39,8 +39,7 @@ flutter:
   fonts:
     - family: DancingScript
       fonts:
-        - asset: assets/fonts/DancingScript-Bold.ttf
-        - asset: assets/fonts/DancingScript-Medium.ttf
-        - asset: assets/fonts/DancingScript-Regular.ttf
-        - asset: assets/fonts/DancingScript-SemiBold.ttf
-        - asset: assets/fonts/RoadRage-Regular.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf

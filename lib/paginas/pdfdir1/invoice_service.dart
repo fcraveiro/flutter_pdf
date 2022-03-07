@@ -69,7 +69,7 @@ class PdfInvoiceService {
         "${(double.parse(getSubTotal(soldProducts)) + double.parse(getVatTotal(soldProducts))).toStringAsFixed(2)} EUR",
       )
     ];
-    final image = (await rootBundle.load("assets/flutter_explained_logo.jpg"))
+    final image = (await rootBundle.load("assets/imagens/image.jpg"))
         .buffer
         .asUint8List();
     pdf.addPage(

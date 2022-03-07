@@ -27,7 +27,7 @@ class _MenuState extends State<Menu> {
               onPressed: () {
                 Get.toNamed("/pagina1/");
               },
-              child: const Text('PDF não Funcional'),
+              child: const Text('Invoice 1'),
             ),
             const SizedBox(
               height: 30,
@@ -47,7 +47,17 @@ class _MenuState extends State<Menu> {
               onPressed: () {
                 Get.toNamed("/homeview/");
               },
-              child: const Text('Homeview'),
+              child: const Text('Imagem Net'),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              style: elevatedEstilo,
+              onPressed: () {
+                Get.toNamed("/pdfpage/");
+              },
+              child: const Text('Invoice 2'),
             ),
           ],
         ),

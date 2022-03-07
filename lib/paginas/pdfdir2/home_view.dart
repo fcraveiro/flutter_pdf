@@ -46,7 +46,7 @@ class _HomeViewState extends State<HomeView> {
 
   void getPDF() async {
     final pdf = pw.Document();
-    var dataFont = await rootBundle.load("assets/fonts/RoadRage-Regular.ttf");
+    var dataFont = await rootBundle.load("assets/fonts/Roboto-Regular.ttf");
     var myFont = pw.Font.ttf(dataFont);
 //    var dataImage = await rootBundle.load("assets/imagens/image.jpg");
 //    var myImage = dataImage.buffer.asUint8List();
