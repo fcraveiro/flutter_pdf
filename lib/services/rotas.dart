@@ -1,3 +1,4 @@
+import 'package:flutter_pdf/paginas/diretorio.dart';
 import 'package:flutter_pdf/paginas/pdfdir1/pagina1.dart';
 import 'package:flutter_pdf/paginas/pdfdir2/home_view.dart';
 import 'package:flutter_pdf/paginas/pdfdir3/pagina2.dart';
@@ -25,6 +26,10 @@ rotas() {
     GetPage(
         name: '/pdfpage/',
         page: () => const PdfPage(),
+        transition: Transition.zoom),
+    GetPage(
+        name: '/diretorio/',
+        page: () => const Diretorio(),
         transition: Transition.zoom),
   ];
 }

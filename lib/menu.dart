@@ -59,6 +59,16 @@ class _MenuState extends State<Menu> {
               },
               child: const Text('Invoice 2'),
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              style: elevatedEstilo,
+              onPressed: () {
+                Get.toNamed("/diretorio/");
+              },
+              child: const Text('Diretorio'),
+            ),
           ],
         ),
       ),
