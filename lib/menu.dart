@@ -69,6 +69,16 @@ class _MenuState extends State<Menu> {
               },
               child: const Text('Diretorio'),
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              style: elevatedEstilo,
+              onPressed: () {
+                Get.toNamed("/fotopdf/");
+              },
+              child: const Text('Foto Teste'),
+            ),
           ],
         ),
       ),

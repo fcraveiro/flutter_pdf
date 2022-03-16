@@ -8,16 +8,16 @@ import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 
-class Pagina2 extends StatefulWidget {
-  const Pagina2({Key? key}) : super(key: key);
+class Paginateste extends StatefulWidget {
+  const Paginateste({Key? key}) : super(key: key);
 
   @override
-  _Pagina2State createState() => _Pagina2State();
+  _PaginatesteState createState() => _PaginatesteState();
 }
 
 var comum = 'foi la';
 
-class _Pagina2State extends State<Pagina2> {
+class _PaginatesteState extends State<Paginateste> {
   final picker = ImagePicker();
   final pdf = pw.Document();
   final List<File> _image = [];
@@ -31,7 +31,7 @@ class _Pagina2State extends State<Pagina2> {
           IconButton(
               icon: const Icon(Icons.cabin),
               onPressed: () {
-                Get.toNamed("/testa/");
+                Get.toNamed("/testa2/");
               }),
           IconButton(
               icon: const Icon(Icons.access_time_sharp),
@@ -106,9 +106,9 @@ class _Pagina2State extends State<Pagina2> {
   }
 
   showPrintedMessage(String title, String msg) {
-    log('foi');
-/*
-    Flushbar(
+    log('foi 2');
+
+/*    Flushbar(
       title: title,
       message: msg,
       duration: const Duration(seconds: 3),
@@ -116,14 +116,13 @@ class _Pagina2State extends State<Pagina2> {
         Icons.info,
         color: Colors.blue,
       ),
-    )..show(context);
-
+    ).show(context);
 */
   }
 }
 
-class Testa extends StatelessWidget {
-  const Testa({Key? key}) : super(key: key);
+class Testa2 extends StatelessWidget {
+  const Testa2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
